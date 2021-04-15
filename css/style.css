@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Eczar&display=swap');
+body{
+    margin: auto;
+    width:900px;
+    height:0 auto;
+    background-color: white;
+    min-height: 1500px;
+    position: relative;
+    margin-bottom: 90px;
+}
+header {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+section {
+    margin-bottom: 23px;
+}
+.hr-image {
+    background-image: url(../img/hr-img.png);
+    background-position: center;    
+    height: 10px;
+}
+.logo {
+    display: inline-block;
+}
+#myLogo {
+    float: left;
+    margin: 2%;
+}
+h1 {
+    font-family:'Yellowtail';
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 23px;
+}
+h6 {
+    font-family:'Abel';
+    font-size: smaller;
+}
+.logo h1, h6 {
+    display: inline-block;
+    line-height: 0em;
+}
+.nav {
+    float: right;
+    margin: 2%;
+    display: inline-flex;
+}
+.social-madia img{
+    margin: 0px;
+}
+.mail {
+    margin-left: 10px;
+}
+.left-side{
+    float: left;
+}
+.right-side {
+    float: right;
+}
+h2 {
+    font-family: 'Oswald';
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+main h6 {
+    color: rgb(158, 157, 157);
+    margin-bottom: 10px;
+}
+article img {
+    margin-bottom: 30px;
+}
+article pre {
+    text-indent: 28px;
+    margin-bottom: 8px;    
+}
+pre {
+    line-height: 23px;
+    font-size: 15px;
+    font-family: 'Eczar';
+    color: grey;
+}
+.list {
+   position: relative;
+   font-family: 'Patrick Hand';
+   color: rgba(31, 29, 29, 0.747);
+}
+.list div {
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+}
+ul {
+    display: inline-block;
+}
+
+
+ #line{
+    text-decoration: line-through;
+} 
+
+div.left-side {
+    margin-left: 55px;
+    margin-top: 35px;
+}
+div.right-side {
+    margin-left: 450px;
+    margin-top: 35px;
+}
+li {
+    margin-bottom: 12px;
+}
+
+.bottom{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    #author-name {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: black;
+        font-weight: bolder;
+    }
+    .bottom p {
+        color: dimgrey;
+        font-size: 15px;
+    }
+    #button {
+        margin-top: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+
+    button#button {
+        background-color: rgba(179, 51, 34, 0.795);
+        font-family: 'abel';
+        font-size: 25px;
+        color: white;
+    }
+    .break {
+        display: block;
+        text-align: center;
+    }
+
+    hr {
+    
+        border: 0.5px solid #D7D7D7;
+    }
+    .break img {
+        position: relative;
+        top: -25px;
+        background:white;
+        padding:0 5px;
+    }
+
+    footer p {
+        text-align: center;
+        color: #B4AFAF;
+    }
+    label{
+        font-family: cursive;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(116, 111, 111);
+    }
